@@ -1,0 +1,87 @@
+{
+  "unpublishedPage": {
+    "name": "页面1",
+    "slug": "1",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 380,
+          "containerStyle": "none",
+          "snapRows": 116,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 77,
+          "minHeight": 1180,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "widgetName": "button1",
+              "color": "{{appsmith.theme.colors.primaryColor}}",
+              "isCanvas": false,
+              "displayName": "按钮",
+              "iconSVG": "/static/media/icon.4d1a6789769ffbdc0548128f48d340db.svg",
+              "searchTags": [
+                "button"
+              ],
+              "topRow": 20,
+              "bottomRow": 24,
+              "parentRowSpace": 10,
+              "showLoading": true,
+              "type": "TARO_BUTTON_WIDGET",
+              "hideCard": false,
+              "parentColumnSpace": 6.84375,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 7,
+              "dynamicBindingPathList": [
+                {
+                  "key": "textColor"
+                },
+                {
+                  "key": "color"
+                }
+              ],
+              "text": "蝶变密码",
+              "isMobile": true,
+              "isDisabled": false,
+              "key": "tba8b8e8q6",
+              "isDeprecated": false,
+              "rightColumn": 31,
+              "widgetId": "yta81vf2q5",
+              "isVisible": true,
+              "version": 1,
+              "textColor": "{{appsmith.theme.colors.backgroundColor}}",
+              "parentId": "0",
+              "isBold": false,
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "rounded": true,
+              "fontSize": "16px"
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "页面1",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": []
+  },
+  "deleted": false,
+  "gitSyncId": "64dad5b9c0b09228148c8468_64dadaacc0b09228148c8471"
+}
